@@ -2,102 +2,117 @@
 /* Buttons Component */
 /* ************************************* */
 .btn {
-    padding: 0.8rem 1.5rem;
-    margin: 1rem;
-    font-weight: 500;
-    font-size: 1.6rem;
-    cursor: pointer;
-    transition: all 0.5s;
-    border-radius: 5px;
-    border: none;
-    font-family: inherit;
-    box-shadow: 0 0 20px 15px rgba(0, 0, 0, 0.06);
-  }
-  
-  .btn-primary {
-    background-color: var(--site-primary);
-    color: var(--site-secondary);
-  }
-  
-  .btn-primary:hover {
-    background-color: var(--site-primary-dark) !important;
-  }
-  
-  .btn-info {
-    background-color: var(--site-secondary);
-    color: var(--white);
-  }
-  
-  .btn-info:hover {
-    background-color: var(--site-secondary-dark);
-  }
-  
-  .btn-warning {
-    background-color: var(--yellow);
-    color: var(--site-secondary);
-  }
-  
-  .btn-warning:hover {
-    background-color: var(--dark-yellow);
-  }
-  
-  .btn-danger {
-    background-color: var(--red);
-    color: var(--white);
-  }
-  
-  .btn-danger:hover {
-    background-color: var(--dark-red);
-  }
-  
-  /* outline buttons */
-  .btn-outline {
-    padding: 0.6rem 1.5rem;
-    margin: 1rem;
-    font-weight: 500;
-    font-size: 1.6rem;
-    cursor: pointer;
-    transition: all 0.5s;
-    border-radius: 5px;
-    font-family: inherit;
-    background-color: var(--white);
-  }
-  
-  .outline-primary {
-    border: 2px solid var(--site-primary);
-    color: var(--site-secondary);
-  }
-  
-  .btn-outline .outline-primary:hover {
-    box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.05);
-  }
-  
-  .outline-secondary {
-    border: 2px solid var(--site-secondary);
-    color: var(--site-primary-dark);
-  }
-  
-  .outline-secondary:hover {
-    box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.05);
-  }
-  
-  /* floating buttons */
-  
-  .btn-float {
-    border-radius: 50%;
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: none;
-    text-align: center;
-    cursor: pointer;
-    margin: 1rem;
-    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.07);
-  }
-  
-  .btn-float-icon {
-    width: 2.5rem;
-    height: 2.5rem;
-  }
+  padding: 0.8rem 1.5rem;
+  margin: 1rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 5px;
+  border: none;
+  font-family: inherit;
+  box-shadow: 0 0 20px 15px rgba(0, 0, 0, 0.06);
+}
+
+.btn-primary {
+  background-color: var(--site-primary);
+  color: var(--site-secondary);
+}
+
+.btn-primary:hover {
+  background-color: var(--site-primary-dark) !important;
+}
+
+.btn-info {
+  background-color: var(--site-secondary);
+  color: var(--white);
+}
+
+.btn-info:hover {
+  background-color: var(--site-secondary-dark);
+}
+
+.btn-warning {
+  background-color: var(--yellow);
+  color: var(--site-secondary);
+}
+
+.btn-warning:hover {
+  background-color: var(--dark-yellow);
+}
+
+.btn-danger {
+  background-color: var(--red);
+  color: var(--white);
+}
+
+.btn-danger:hover {
+  background-color: var(--dark-red);
+}
+
+/* outline buttons */
+.btn-outline {
+  padding: 0.6rem 1.5rem;
+  margin: 1rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 5px;
+  font-family: inherit;
+  background-color: var(--white);
+}
+
+.outline-primary {
+  border: 2px solid var(--site-primary);
+  color: var(--site-secondary);
+}
+
+.btn-outline .outline-primary:hover {
+  box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.05);
+}
+
+.outline-secondary {
+  border: 2px solid var(--site-secondary);
+  color: var(--site-primary-dark);
+}
+
+.outline-secondary:hover {
+  box-shadow: 0 0 10px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* link buttons */
+.btn-link {
+  text-decoration: none;
+  /* color: var(--site-secondary); */
+}
+
+
+/* floating buttons */
+.example-float {
+  position: relative;
+  height: 7rem;
+}
+
+.btn-icon, .btn-float {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  margin: 1rem;
+  box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.07);
+}
+
+.btn-float {
+    position: absolute;
+}
+
+.btn-icon-icon, .btn-float-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
