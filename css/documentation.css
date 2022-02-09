@@ -1,5 +1,7 @@
 @import url("../css/components/alert.css");
 @import url("../css/components/avatar.css");
+@import url("../css/components/badge.css");
+@import url("../css/components/button.css");
 
 :root {
   --text-primary: #555;
@@ -186,8 +188,6 @@ a {
 
   .documentation {
     padding: 0;
-
-    border-left: none;
   }
 
   .code-snippet {
@@ -202,5 +202,9 @@ a {
 
   .code-snippet {
     max-width: 45rem;
+  }
+
+  .avatar-group .avatar {
+    margin-left: -22px;
   }
 }
