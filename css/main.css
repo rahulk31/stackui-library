@@ -1,0 +1,178 @@
+@import url("./utilities.css");
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: var(--site-primary-bg);
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+.hero,
+.features,
+.installation {
+  width: 100%;
+  gap: 2rem;
+}
+
+.hero {
+    padding-top: 5rem;
+}
+
+.point {
+  margin: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.point img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.point span {
+  font-size: 1.8rem;
+  color: var(--site-secondary);
+  margin-left: 1.5rem;
+}
+
+.hero-text-wrapper {
+  max-width: 50rem;
+}
+
+.installation-text > .para-text {
+  max-width: 50rem;
+  text-align: left;
+  margin: 1rem;
+}
+
+.img-container {
+  max-width: 50rem;
+  margin: 2rem;
+  
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.one,
+.two,
+.three {
+  position: relative;
+  margin: 5rem auto;
+}
+
+.one::before {
+  content: "01";
+  position: absolute;
+  top: -80px;
+  left: -50px;
+  color: rgb(243, 242, 242);
+  font-size: 15rem;
+  z-index: -1;
+  font-weight: 700;
+}
+.two::before {
+  content: "02";
+  position: absolute;
+  top: -80px;
+  left: -50px;
+  color: rgb(243, 242, 242);
+  font-size: 15rem;
+  z-index: -1;
+  font-weight: 700;
+}
+.three::before {
+  content: "03";
+  position: absolute;
+  top: -80px;
+  left: -50px;
+  color: rgb(243, 242, 242);
+  font-size: 15rem;
+  z-index: -1;
+  font-weight: 700;
+}
+
+.footer {
+  height: 10rem;
+  background-color: var(--site-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.footer-text {
+  font-size: 2rem;
+  color: var(--site-primary);
+}
+.footer a {
+  color: var(--site-primary);
+}
+
+.footer-icon {
+  color: var(--site-primary) !important;
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem 0 0 1rem;
+}
+
+@media (max-width: 820px) {
+  html {
+    font-size: 55%;
+  }
+
+  .hero,
+  .features,
+  .installation {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-container {
+    max-width: 40rem;
+    overflow: hidden;
+  }
+
+  .features {
+    flex-direction: column-reverse;
+  }
+
+  .hero .img-container {
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img-container {
+    max-width: 40rem;
+    margin: 2rem 3rem 2rem 0;
+  }
+
+  .features {
+    flex-direction: column-reverse;
+  }
+}
