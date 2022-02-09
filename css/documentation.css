@@ -1,5 +1,6 @@
 @import url("../css/components/alert.css");
 @import url("../css/components/avatar.css");
+@import url("../css/components/badge.css");
 
 :root {
   --text-primary: #555;
