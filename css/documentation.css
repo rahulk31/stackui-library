@@ -4,6 +4,7 @@
 @import url("../css/components/button.css");
 @import url("../css/components/card.css");
 @import url("../css/components/image.css");
+@import url("../css/components/typography.css");
 
 :root {
   --text-primary: #555;
