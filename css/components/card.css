@@ -1,4 +1,40 @@
-/* vertical card-wrapper */
+/* --------- ------------------ ------------- */
+/* --------- normal cards ------------- */
+/* --------- ------------------ ------------- */
+.card {
+  margin: 2rem;
+  padding: 4rem 3rem;
+  text-align: center;
+  max-width: 30rem;
+  border-radius: 11px;
+  box-shadow: 0 0 15px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card p {
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+.card .close {
+  text-align: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.close-icon {
+  color: var(--site-secondary-light);
+  font-size: 5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  font-weight: 300 !important;
+}
+.card .close-icon:hover {
+  box-shadow: 0 0 15px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* --------- ------------------ ------------- */
+/* --------- Vertical cards ------------- */
+/* --------- ------------------ ------------- */
 .card-wrapper-v {
   display: flex;
   flex-direction: column;
@@ -111,7 +147,10 @@
   margin: 1rem auto;
 }
 
-/* horizontal */
+/* --------- ------------------ ------------- */
+/* --------- horizontal cards ------------- */
+/* --------- ------------------ ------------- */
+
 .card-wrapper-h {
   display: flex;
   flex-direction: row;
@@ -143,6 +182,8 @@
   width: 100%;
   margin: 1rem auto 0 auto;
 }
+
+/* Out of stock classes */
 
 .out-of-stock {
   position: absolute;
