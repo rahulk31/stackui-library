@@ -2,6 +2,7 @@
 @import url("../css/components/avatar.css");
 @import url("../css/components/badge.css");
 @import url("../css/components/button.css");
+@import url("../css/components/card.css");
 
 :root {
   --text-primary: #555;
@@ -206,5 +207,21 @@ a {
 
   .avatar-group .avatar {
     margin-left: -22px;
+  }
+}
+
+@media (max-width: 520px) {
+  .card-wrapper-h {
+    margin: 1rem;
+    padding-right: 1rem;
+  }
+
+  .card-text-primary {
+    font-size: 1.8rem;
+    line-height: 1.8;
+  }
+
+  .card-wrapper-h .btn-outline {
+    display: none;
   }
 }

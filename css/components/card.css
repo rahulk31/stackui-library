@@ -1,0 +1,202 @@
+/* --------- ------------------ ------------- */
+/* --------- normal cards ------------- */
+/* --------- ------------------ ------------- */
+.card {
+  margin: 2rem;
+  padding: 4rem 3rem;
+  text-align: center;
+  max-width: 30rem;
+  border-radius: 11px;
+  box-shadow: 0 0 15px 12px rgba(0, 0, 0, 0.05);
+}
+
+.card p {
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+.card .close {
+  text-align: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.close-icon {
+  color: var(--site-secondary-light);
+  font-size: 5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  font-weight: 300 !important;
+}
+.card .close-icon:hover {
+  box-shadow: 0 0 15px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* --------- ------------------ ------------- */
+/* --------- Vertical cards ------------- */
+/* --------- ------------------ ------------- */
+.card-wrapper-v {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 30rem;
+  box-shadow: 0 0 15px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 11px;
+  margin: 2rem;
+  overflow: hidden;
+}
+
+/* text badges */
+
+.text-badge {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0.7rem 1rem;
+  color: var(--site-secondary);
+}
+
+.trending {
+  background-color: var(--site-primary-light);
+}
+
+.hot {
+  background-color: var(--secondary-red);
+}
+
+/* -------- image-container --------------- */
+.img-container {
+  width: 100%;
+  position: relative;
+  object-fit: contain;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+}
+
+/* --------- card-details container ----------- */
+
+.card-details {
+  padding: 2rem;
+  width: 100%;
+}
+
+.card-text-primary {
+  font-size: 2.4rem;
+  color: var(--site-secondary);
+}
+
+.card-text-secondary {
+  font-size: 1.4rem;
+  color: var(--text-primary);
+}
+
+.card-text-tertiary {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* details */
+.price-and-rating,
+.discount-and-reviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price,
+.rating {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.price {
+  align-items: center;
+}
+
+.price > * {
+  margin-right: 0.5rem;
+}
+
+.rating {
+  align-items: center;
+  padding: 0.25rem 0.7rem;
+  background-color: var(--yellow);
+  color: var(--site-secondary);
+  border-radius: 3px;
+}
+
+.rating > * {
+  color: var(--site-secondary);
+}
+
+.card-icon {
+  margin-left: 0.5rem;
+}
+
+.card-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 1rem auto;
+}
+
+/* --------- ------------------ ------------- */
+/* --------- horizontal cards ------------- */
+/* --------- ------------------ ------------- */
+
+.card-wrapper-h {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 70rem;
+  box-shadow: 0 0 15px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 11px;
+  height: 20rem;
+  margin: 2rem;
+  padding-right: 3rem;
+  overflow: hidden;
+}
+
+.card-wrapper-h .img-container {
+  max-width: 20rem;
+  object-fit: contain;
+}
+
+.card-wrapper-h img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-wrapper-h .card-cta {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin: 1rem auto 0 auto;
+}
+
+/* Out of stock classes */
+
+.out-of-stock {
+  position: absolute;
+  background-color: rgba(58, 212, 175, 0.2);
+  color: var(--site-secondary);
+  width: 100%;
+  height: 100%;
+  font-size: 3.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-red {
+  color: var(--red);
+}
