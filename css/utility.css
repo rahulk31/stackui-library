@@ -235,11 +235,11 @@ ul {
 /* ******************** */
 
 .primary-color {
-  color: var(--site-primary);
+  color: var(--site-primary) !important;
 }
 
 .secondary-color {
-  color: var(--site-secondary);
+  color: var(--site-secondary) !important;
 }
 
 /* ******************** */
