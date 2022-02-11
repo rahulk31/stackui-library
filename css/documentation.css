@@ -5,6 +5,7 @@
 @import url("../css/components/card.css");
 @import url("../css/components/image.css");
 @import url("../css/components/typography.css");
+@import url("../css/components/modal.css");
 
 :root {
   --text-primary: #555;
@@ -123,6 +124,7 @@ a {
 
 .component-examples {
   padding: 1rem;
+  margin: 0 auto;
   background-color: var(--white);
   border-radius: 9px;
   width: 100%;

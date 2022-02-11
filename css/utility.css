@@ -359,3 +359,11 @@ ul {
 .row-ul-li:hover {
   background-color: #d4d3dc;
 }
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
