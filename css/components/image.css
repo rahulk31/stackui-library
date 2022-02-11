@@ -1,0 +1,28 @@
+
+.img-wrapper {
+    max-width: 90rem;
+    height: 30rem;
+    margin: 1rem;
+    border-radius: 11px;
+    overflow: hidden;
+    box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .img-wrapper img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+  
+  .img-wrapper.img-round {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+  }
+  
+  .img-wrapper.img-round img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+  

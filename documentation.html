@@ -51,8 +51,7 @@
         </ul>
         <span class="nav-label">Utility Classes</span>
         <ul class="main-nav-ul">
-          <a href="#heading"><li>Headings</li></a>
-          <a href="#paragraph"><li>Paragraphs</li></a>
+          <a href="#typography"><li>Typography</li></a>
           <a href="#margin"><li>Margins</li></a>
           <a href="#padding"><li>Paddings</li></a>
         </ul>
@@ -731,6 +730,110 @@
 
           <div class="code-snippet">
             <script src="https://gist.github.com/rahulk31/55da102702984e16a4b5228b4c936a9f.js"></script>
+          </div>
+        </div>
+
+        <!-- Responsive Images -->
+        <div id="image">
+          <h1 class="primary-heading-blue">Responsive Images</h1>
+          <p class="para-text">
+            Responsive images change their aspect ratio according to the
+            container it is contained in. Stack UI provides the container
+            <span class="primary-color">img-wrapper</span> that allows you to
+            wrap your image and get it displayed in a responsive nature. You can
+            change the height and width of the wrapper according to the usecase.
+          </p>
+          <div class="component-examples">
+            <div class="img-wrapper">
+              <img src="./assets/image/landscape.jpeg" alt="" />
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/717a3f1009e4d213e93569707031c536.js"></script>
+          </div>
+
+          <h3 class="secondary-heading-blue">Round Images</h3>
+          <p class="para-text">
+            To get your images rounded, simply add the
+            <span class="primary-color">img-round</span> class to your wrapper
+            class.
+          </p>
+          <div class="component-examples">
+            <div class="img-wrapper img-round">
+              <img src="./assets/image/landscape.jpeg" alt="" />
+            </div>
+
+            <div class="img-wrapper img-round">
+              <img src="./assets/image/car.jpeg" alt="" />
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/8ca08d31a76ecdca01843d4505d54da4.js"></script>
+          </div>
+        </div>
+
+        <!-- Text Utilities -->
+        <div id="typography">
+          <h1 class="primary-heading-blue">Typography</h1>
+          <p class="para-text">
+            Various text utility classes that can be used to design text based
+            use cases. Below are all the examples for Headings, paragraphs,
+            span, and more.
+          </p>
+
+          <h3 class="secondary-heading-blue">Headings</h3>
+          <div class="component-examples">
+            <div class="text-sample-wrapper">
+              <h1 class="h1 primary-color">Heading One</h1>
+              <h2 class="h2 primary-color">Heading Two</h2>
+              <h3 class="h3 primary-color">Heading Three</h3>
+              <h4 class="h4 primary-color">Heading Four</h4>
+              <h5 class="h5 primary-color">Heading Five</h5>
+              <h6 class="h6 primary-color">Heading Six</h6>
+            </div>
+            <div class="text-sample-wrapper">
+              <h1 class="h1 secondary-color">Heading One</h1>
+              <h2 class="h2 secondary-color">Heading Two</h2>
+              <h3 class="h3 secondary-color">Heading Three</h3>
+              <h4 class="h4 secondary-color">Heading Four</h4>
+              <h5 class="h5 secondary-color">Heading Five</h5>
+              <h6 class="h6 secondary-color">Heading Six</h6>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/01d50148bf9de805636cb2502df42092.js"></script>
+          </div>
+
+          <h3 class="secondary-heading-blue">Paragraphs and Spans</h3>
+          <div class="component-examples">
+            <div class="text-sample-wrapper">
+              <p class="p">Normal paragraph text.</p>
+              <p class="p-sm">Small paragraph text.</p>
+              <p class="p-xs">Extra small paragraph text.</p>
+              <span class="span">normal span text.</span>
+              <span class="span-sm">small span text.</span>
+              <p class="p-sm text-grey">this is a grey text.</p>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/d91646f87293386e191a026019e78ab9.js"></script>
+          </div>
+
+          <h3 class="secondary-heading-blue">Alignment</h3>
+          <div class="component-examples">
+            <div class="alignment-example">
+              <p class="p text-center">Centered text</p>
+              <p class="p text-left">Left-aligned text</p>
+              <p class="p text-right">Right-aligned text</p>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/23a246ad5b9f67d8c60f7c3461e8240a.js"></script>
           </div>
         </div>
       </section>
