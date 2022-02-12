@@ -11,10 +11,7 @@ const openModal = () => {
   modal.classList.remove("hide");
 };
 
-openModalBtn.addEventListener("click", () => {
-  console.log("clicked");
-  openModal();
-});
+openModalBtn.addEventListener("click", openModal);
 modal.addEventListener("click", closeModal);
 modalOkayBtn.addEventListener("click", closeModal);
 modalCloseBtn.addEventListener("click", closeModal);

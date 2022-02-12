@@ -6,6 +6,7 @@
 @import url("../css/components/image.css");
 @import url("../css/components/typography.css");
 @import url("../css/components/modal.css");
+@import url("../css/components/rating.css");
 
 :root {
   --text-primary: #555;
