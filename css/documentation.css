@@ -23,6 +23,8 @@
   --site-primary-lighter: #ebfbf7;
   --site-primary-bg: #f8fcfb;
 
+  --box-shadow-black05: rgba(0,0,0,0.05);
+
   /* mandate colors for components */
   --black: #212529;
   --white: #ffffff;
@@ -68,7 +70,7 @@ a {
 }
 
 .main-section {
-  padding: 2rem;
+  padding: 0 2rem;
   background-color: var(--site-primary-bg);
   display: flex;
   justify-content: space-evenly;
@@ -77,6 +79,7 @@ a {
 
 .main-nav {
   flex: 1;
+  padding-top: 2rem;
 }
 
 .main-nav .nav-label {
@@ -109,7 +112,7 @@ a {
   flex: 5;
   padding: 0 4rem;
   overflow-y: auto;
-  height: 83.2vh;
+  height: calc(100vh - 81px);
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
