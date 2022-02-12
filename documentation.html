@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./css/documentation.css" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <title>StackUI | Documentation</title>
+
+    <script defer src="./js/modal.js"></script>
+    <script defer src="./js/rating.js"></script>
   </head>
   <body>
     <nav id="navbar" class="nav dfr-aic df-jcsb">
@@ -47,6 +50,7 @@
           <a href="#image"><li>Images</li></a>
           <a href="#input"><li>Input</li></a>
           <a href="#modal"><li>Modal</li></a>
+          <a href="#rating"><li>Rating</li></a>
           <a href="#toast"><li>Toasts</li></a>
         </ul>
         <span class="nav-label">Utility Classes</span>
@@ -524,7 +528,7 @@
                   </p>
                 </div>
 
-                <div class="card-cta">
+                <div class="cta">
                   <button class="btn-outline outline-primary">
                     Add to cart
                   </button>
@@ -561,7 +565,7 @@
                   </p>
                 </div>
 
-                <div class="card-cta">
+                <div class="cta">
                   <button class="btn-outline outline-primary">
                     Add to cart
                   </button>
@@ -597,7 +601,7 @@
                   <p class="card-text-tertiary color-red">currently Sold Out</p>
                 </div>
 
-                <div class="card-cta">
+                <div class="cta">
                   <button class="btn btn-primary">Notify Me!</button>
                 </div>
               </div>
@@ -646,7 +650,7 @@
                   </p>
                 </div>
 
-                <div class="card-cta">
+                <div class="cta">
                   <button class="btn-outline outline-primary">
                     Add to cart
                   </button>
@@ -684,7 +688,7 @@
                   </p>
                 </div>
 
-                <div class="card-cta">
+                <div class="cta">
                   <button class="btn-outline outline-primary">
                     Add to cart
                   </button>
@@ -721,7 +725,7 @@
                   <p class="card-text-tertiary color-red">currently Sold Out</p>
                 </div>
 
-                <div class="card-cta">
+                <div class="cta">
                   <button class="btn btn-primary">Notify Me!</button>
                 </div>
               </div>
@@ -771,6 +775,100 @@
 
           <div class="code-snippet">
             <script src="https://gist.github.com/rahulk31/8ca08d31a76ecdca01843d4505d54da4.js"></script>
+          </div>
+        </div>
+
+        <!-- Modal -->
+        <div id="modal">
+          <h1 class="primary-heading-blue">Modal</h1>
+          <p class="para-text">
+            A modal is a dialog box/popup window that is displayed on top of the
+            current page disabling all the other content on the page for that
+            instance.
+          </p>
+
+          <div class="component-examples">
+            <div id="modal-container" class="modal-overlay hide">
+              <div class="modal-wrapper">
+                <h3 class="h3 secondary-color">Modal Heading</h3>
+                <p class="p-sm modal-wrapper-p">
+                  <span class="primary-color">Lorem</span> ipsum dolor sit amet,
+                  consectetur adipisicing elit. Minus temporibus recusandae
+                  cupiditate. Ipsum sapiente illo id aut, eius adipisci
+                  exercitationem! Dolore, delectus numquam corporis
+                  reprehenderit est fuga. Molestiae commodi ad eos, vero
+                  inventore saepe!
+                </p>
+                <div class="cta">
+                  <button id="modal-okay" class="btn btn-primary">
+                    Alright
+                  </button>
+                  <button id="modal-close" class="btn-outline outline-primary">
+                    Close
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <button id="open-modal" class="btn btn-primary">Modal Demo</button>
+          </div>
+
+          <h3 class="secondary-heading-blue">HTML Code for Modal</h3>
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/04b139d8282106e867486a01ebefaa84.js"></script>
+          </div>
+          <h3 class="secondary-heading-blue">Javascript Code for Modal</h3>
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/2b3b63d310f2eb5117194b064d6fada9.js"></script>
+          </div>
+        </div>
+
+        <!-- Rating -->
+        <div id="rating">
+          <h1 class="primary-heading-blue">Rating</h1>
+          <p class="para-text">
+            A rating component can be used on any ecommerce platform, where we
+            need to collect user experience with product or service in forms of
+            rating.
+          </p>
+
+          <div class="component-examples">
+            <div class="rating-wrapper">
+              <ion-icon
+                id="rating-star"
+                class="rating-star-1 star"
+                name="star"
+              ></ion-icon>
+              <ion-icon
+                id="rating-star"
+                class="rating-star-2 star"
+                name="star"
+              ></ion-icon>
+              <ion-icon
+                id="rating-star"
+                class="rating-star-3 star"
+                name="star"
+              ></ion-icon>
+              <ion-icon
+                id="rating-star"
+                class="rating-star-4 star"
+                name="star"
+              ></ion-icon>
+              <ion-icon
+                id="rating-star"
+                class="rating-star-5 star"
+                name="star"
+              ></ion-icon>
+            </div>
+          </div>
+
+          <h3 class="secondary-heading-blue">HTML code for Rating</h3>
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/ae8f54215f0b86127530324b015ffd03.js"></script>
+          </div>
+          <h3 class="secondary-heading-blue">Javascript code for Rating</h3>
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/1fc1ca6d395cd2def01d02991da805d0.js"></script>
           </div>
         </div>
 

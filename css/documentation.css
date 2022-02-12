@@ -5,6 +5,8 @@
 @import url("../css/components/card.css");
 @import url("../css/components/image.css");
 @import url("../css/components/typography.css");
+@import url("../css/components/modal.css");
+@import url("../css/components/rating.css");
 
 :root {
   --text-primary: #555;
@@ -20,6 +22,8 @@
   --site-primary-light: #c6f6d5;
   --site-primary-lighter: #ebfbf7;
   --site-primary-bg: #f8fcfb;
+
+  --box-shadow-black05: rgba(0,0,0,0.05);
 
   /* mandate colors for components */
   --black: #212529;
@@ -66,7 +70,7 @@ a {
 }
 
 .main-section {
-  padding: 2rem;
+  padding: 0 2rem;
   background-color: var(--site-primary-bg);
   display: flex;
   justify-content: space-evenly;
@@ -75,6 +79,7 @@ a {
 
 .main-nav {
   flex: 1;
+  padding-top: 2rem;
 }
 
 .main-nav .nav-label {
@@ -107,7 +112,7 @@ a {
   flex: 5;
   padding: 0 4rem;
   overflow-y: auto;
-  height: 83.2vh;
+  height: calc(100vh - 81px);
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -123,6 +128,7 @@ a {
 
 .component-examples {
   padding: 1rem;
+  margin: 0 auto;
   background-color: var(--white);
   border-radius: 9px;
   width: 100%;

@@ -1,0 +1,16 @@
+.rating-wrapper {
+  padding: 2rem 4rem;
+  border-radius: 4px;
+  box-shadow: 0 0 15px 10px var(--box-shadow-black05);
+  margin: 2rem;
+}
+
+.star {
+  font-size: 2rem;
+  color: var(--site-secondary-light);
+  cursor: pointer;
+}
+
+.rating-yellow-star {
+  color: var(--yellow);
+}
