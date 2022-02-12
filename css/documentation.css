@@ -8,6 +8,7 @@
 @import url("../css/components/modal.css");
 @import url("../css/components/rating.css");
 @import url("../css/components/input.css");
+@import url("../css/components/slider.css");
 
 :root {
   --text-primary: #555;
@@ -24,7 +25,7 @@
   --site-primary-lighter: #ebfbf7;
   --site-primary-bg: #f8fcfb;
 
-  --box-shadow-black05: rgba(0,0,0,0.05);
+  --box-shadow-black05: rgba(0, 0, 0, 0.05);
 
   /* mandate colors for components */
   --black: #212529;

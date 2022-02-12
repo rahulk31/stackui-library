@@ -1,0 +1,25 @@
+.slider-container {
+  margin: 2rem;
+  padding: 2rem;
+  min-width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slider {
+  -webkit-appearance: none;
+  min-width: 90%;
+  height: 0.7rem;
+  background-color: var(--site-secondary);
+  border-radius: 11px;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid var(--white);
+  background-color: var(--site-primary);
+}

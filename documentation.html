@@ -17,6 +17,7 @@
 
     <script defer src="./js/modal.js"></script>
     <script defer src="./js/rating.js"></script>
+    <script defer src="./js/slider.js"></script>
   </head>
   <body>
     <nav id="navbar" class="nav dfr-aic df-jcsb">
@@ -51,7 +52,7 @@
           <a href="#input"><li>Input</li></a>
           <a href="#modal"><li>Modal</li></a>
           <a href="#rating"><li>Rating</li></a>
-          <a href="#toast"><li>Toasts</li></a>
+          <a href="#slider"><li>Slider</li></a>
         </ul>
         <span class="nav-label">Utility Classes</span>
         <ul class="main-nav-ul">
@@ -965,6 +966,33 @@
           <h3 class="secondary-heading-blue">Javascript code for Rating</h3>
           <div class="code-snippet">
             <script src="https://gist.github.com/rahulk31/1fc1ca6d395cd2def01d02991da805d0.js"></script>
+          </div>
+        </div>
+
+        <!-- Slider -->
+        <div id="slider">
+          <h1 class="primary-heading-blue">Slider</h1>
+          <p class="para-text">
+            Sliders are majorly used to take inputs from user that ranges
+            between two values. A minimum value and a maximum value.
+          </p>
+          <div class="component-examples">
+            <div class="slider-container">
+              <input
+                id="range-slider"
+                class="slider"
+                type="range"
+                name="slider"
+                value="10"
+                min="0"
+                max="5000"
+              />
+              <p id="range-value" class="p-xs ml1">0</p>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/772c6fd9f48b5ed37e55335980e0271c.js"></script>
           </div>
         </div>
 
