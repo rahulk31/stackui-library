@@ -7,6 +7,7 @@
 @import url("../css/components/typography.css");
 @import url("../css/components/modal.css");
 @import url("../css/components/rating.css");
+@import url("../css/components/input.css");
 
 :root {
   --text-primary: #555;
