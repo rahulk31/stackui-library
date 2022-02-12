@@ -17,6 +17,7 @@
 
     <script defer src="./js/modal.js"></script>
     <script defer src="./js/rating.js"></script>
+    <script defer src="./js/slider.js"></script>
   </head>
   <body>
     <nav id="navbar" class="nav dfr-aic df-jcsb">
@@ -51,7 +52,7 @@
           <a href="#input"><li>Input</li></a>
           <a href="#modal"><li>Modal</li></a>
           <a href="#rating"><li>Rating</li></a>
-          <a href="#toast"><li>Toasts</li></a>
+          <a href="#slider"><li>Slider</li></a>
         </ul>
         <span class="nav-label">Utility Classes</span>
         <ul class="main-nav-ul">
@@ -778,6 +779,102 @@
           </div>
         </div>
 
+        <!-- Inputs -->
+        <div id="input">
+          <h1 class="primary-heading-blue">Inputs</h1>
+          <p class="para-text">
+            Inputs are used to collect data from users directly in form of
+            texts, numbers, clicks, checkboxes, radio buttons etc. Different
+            styles are provided by StackUI for your labels, inputs, different
+            colored borders that has sementic meanings. They can be used
+            separately when needed or within a form group.
+          </p>
+
+          <div class="component-examples">
+            <form class="input-wrapper border-default">
+              <div class="form-title">
+                <h5 class="h5">Feedback Form</h5>
+              </div>
+              <label class="label" for="name">Enter your name:</label>
+              <input
+                class="text-input border-default"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="John Doe"
+                required
+              />
+
+              <label class="label" for="mobile">Mobile number:</label>
+              <input
+                class="text-input border-default"
+                type="number"
+                name="mobile"
+                id="mobile"
+                placeholder="9876543210"
+                required
+              />
+
+              <label for="message" class="label"
+                >Leave your message below 👇</label
+              >
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="5"
+                class="text-area"
+              ></textarea>
+
+              <div class="cta">
+                <button class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/1fc4e9546165710509388b82f2fbf0b4.js"></script>
+          </div>
+
+          <h3 class="secondary-heading-blue">Input Variations</h3>
+          <div class="component-examples">
+            <div class="input-wrapper">
+              <label for="border-success" class="label"
+                >Correct Credentials</label
+              >
+              <input
+                type="text"
+                name="border-success"
+                class="text-input border-success"
+              />
+              <label for="border-error" class="label">Incorrect Details</label>
+              <input
+                type="text"
+                name="border-error"
+                class="text-input border-error"
+              />
+              <input
+                type="text"
+                name="disabled"
+                class="text-input border-default"
+                placeholder="disabled input field"
+                disabled
+              />
+              <input
+                type="text"
+                name="disabled-read-only"
+                class="text-input border-default"
+                placeholder="disabled read only"
+                readonly
+              />
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/c8a96b7cbdeb950173cf7dc7449d902c.js"></script>
+          </div>
+        </div>
+
         <!-- Modal -->
         <div id="modal">
           <h1 class="primary-heading-blue">Modal</h1>
@@ -869,6 +966,33 @@
           <h3 class="secondary-heading-blue">Javascript code for Rating</h3>
           <div class="code-snippet">
             <script src="https://gist.github.com/rahulk31/1fc1ca6d395cd2def01d02991da805d0.js"></script>
+          </div>
+        </div>
+
+        <!-- Slider -->
+        <div id="slider">
+          <h1 class="primary-heading-blue">Slider</h1>
+          <p class="para-text">
+            Sliders are majorly used to take inputs from user that ranges
+            between two values. A minimum value and a maximum value.
+          </p>
+          <div class="component-examples">
+            <div class="slider-container">
+              <input
+                id="range-slider"
+                class="slider"
+                type="range"
+                name="slider"
+                value="10"
+                min="0"
+                max="5000"
+              />
+              <p id="range-value" class="p-xs ml1">0</p>
+            </div>
+          </div>
+
+          <div class="code-snippet">
+            <script src="https://gist.github.com/rahulk31/772c6fd9f48b5ed37e55335980e0271c.js"></script>
           </div>
         </div>
 

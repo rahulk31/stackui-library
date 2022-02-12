@@ -1,0 +1,50 @@
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 2rem;
+  padding: 2rem;
+  box-shadow: 0 0 15px 10px var(--box-shadow-black05);
+  border-radius: 11px;
+  min-width: 30rem;
+}
+
+.form-title {
+  width: 100%;
+  text-align: center;
+  color: var(--site-secondary);
+  margin: 1rem auto;
+}
+
+.label {
+  font-size: 1.6rem;
+  color: var(--site-secondary);
+  margin-top: 0.5rem;
+}
+
+.text-input,
+.text-area {
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin: 0.5rem auto;
+  width: 100%;
+}
+
+.text-input:focus {
+  outline: none;
+}
+
+.border-default {
+  border: 1px solid var(--site-secondary);
+}
+
+.border-error {
+  border: 1px solid var(--red);
+}
+
+.border-success {
+  border: 1px solid var(--site-primary);
+}
