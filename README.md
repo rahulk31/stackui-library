@@ -15,6 +15,9 @@ or
 
 You can read about the classes and its implementation on the [documentation page](https://stackui.netlify.app)
 
+![Homepage Screenshot](/assets/screenshots/homepage.png)
+![Documentation Screenshot](/assets/screenshots/docs.png)
+
 ### Features
 StackUI as of version 1.0.0 has 11 components ready to be used. Listed below:
 - [alerts](https://stackui.netlify.app/documentation.html#alert)
