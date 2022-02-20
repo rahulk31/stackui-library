@@ -1,14 +1,4 @@
-@import url("../css/components/alert.css");
-@import url("../css/components/avatar.css");
-@import url("../css/components/badge.css");
-@import url("../css/components/button.css");
-@import url("../css/components/card.css");
-@import url("../css/components/image.css");
-@import url("../css/components/typography.css");
-@import url("../css/components/modal.css");
-@import url("../css/components/rating.css");
-@import url("../css/components/input.css");
-@import url("../css/components/slider.css");
+@import url('./stackui.css');
 
 :root {
   --text-primary: #555;
@@ -45,6 +35,8 @@ html {
 
 body {
   box-sizing: border-box;
+  max-width: 1700px;
+  margin: 0 auto;
 }
 
 a {
@@ -126,6 +118,13 @@ a {
 .documentation {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+.bg-fade {
+  background-color: var(--site-secondary-bg);
+  padding: 1px 10px;
+  border-radius: 15rem;
+  font-size: 1.4rem;
 }
 
 .component-examples {

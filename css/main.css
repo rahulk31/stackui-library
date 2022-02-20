@@ -57,7 +57,8 @@ p {
   margin: 1rem;
 }
 
-.img-container {
+.img-container,
+.code-snippet {
   max-width: 50rem;
   margin: 2rem;
   

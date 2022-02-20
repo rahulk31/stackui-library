@@ -10,14 +10,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1.2vmax;
-    height: 1.2vmax;
-    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30px;
     font-weight: 500;
-    font-size: 0.8rem;
+    font-size: 8px;
     z-index: 1;
     top: -2px;
-    right: -2px;
+    right: 0px;
+    border: 1px solid var(--white);
   }
   
   .icon-badge .icon {

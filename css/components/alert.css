@@ -7,7 +7,7 @@
     padding: 1rem 2rem;
     border-radius: 7px;
     margin: 1rem;
-    max-width: 90rem;
+    min-width: 40rem;
   }
   
   .alert-success {
@@ -24,12 +24,12 @@
   }
   
   .alert-icon img {
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
   }
   
   .alert-text {
-    margin-left: 2rem;
+    margin-left: 1rem;
   }
   
   .alert-text p {

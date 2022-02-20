@@ -69,7 +69,13 @@
           <p class="para-text">
             The alert dialog displays some important information to the user.
             StackUI provides 4 different color schemes of alerts to show case
-            relevant system alert to users.
+            relevant system alert to users. Class
+            <span class="bg-fade">alert</span> can be used along with the other
+            classes to give the sementic meanings to the alert messages.
+            <span class="bg-fade">alert-success</span>,
+            <span class="bg-fade">alert-warning</span>,
+            <span class="bg-fade">alert-info</span>,
+            <span class="bg-fade">alert-error</span>
           </p>
           <div class="component-examples">
             <div>
@@ -135,7 +141,8 @@
           <p class="para-text">
             Avatar is basically the display picture of a user. It generally is
             very small in size and the sizes can vary depending on the use case.
-            Stack UI provides 6 standard sizes for your avatars. Check below the
+            Stack UI provides a generic <span class="bg-fade">avatar</span> class that can be used in association with any of 6 standard sizes for your avatars.
+            <span class="bg-fade">avatar-xs</span>, <span class="bg-fade">avatar-xs</span>, <span class="bg-fade">avatar-s</span>, <span class="bg-fade">avatar-m</span>, <span class="bg-fade">avatar-l</span>, <span class="bg-fade">avatar-xl</span>, <span class="bg-fade">avatar-xxl</span>. Check below the
             important classes and the way to implement.
           </p>
 
@@ -195,6 +202,7 @@
 
           <!-- Avatar with text -->
           <h3 class="secondary-heading-blue">Text Avatar</h3>
+          <p class="para-text">Similar to image avatars, text avatars can use those classes. One thing to note is that text avatars should mandatorily have the <span class="bg-fade">avatar-text</span>.</p>
           <div class="component-examples">
             <div class="avatar-wrapper">
               <div class="avatar avatar-m avatar-text">
@@ -235,7 +243,7 @@
           <h3 class="secondary-heading-blue">Avatar Group</h3>
           <p class="para-text">
             An avatar group can be used to showcase how many users contributed
-            or participated in some event.
+            or participated in some event. To implement a avatar group just wrap all the avatars within a container with class named <span class="bg-fade">avatar-group</span>.
           </p>
           <div class="component-examples">
             <div class="avatar-group">
@@ -288,7 +296,8 @@
           <!-- Avatar with badges of different colors -->
           <h3 class="secondary-heading-blue">Avatar with badges</h3>
           <p class="para-text">
-            Badges indicate the status of the user. example-> Green: online
+            Badges indicate the status of the user. example-> Green: online <br>
+            For badges on image avatars use a span tag that has following classes: <span class="bg-fade">avatar-badge</span> along with any of these classes: <span class="bg-fade">badge-red</span>, <span class="bg-fade">badge-green</span>, <span class="bg-fade">badge-yellow</span>
           </p>
           <div class="component-examples">
             <div class="avatar-wrapper">
@@ -323,6 +332,9 @@
 
           <!-- Icons with notification badges colors -->
           <h3 class="secondary-heading-blue">Icons with badges</h3>
+          <p class="para-text">
+            For badges on icons simply use a span tag that has the class: <span class="bg-fade">badge</span> along with any of these classes: <span class="bg-fade">badge-red</span>, <span class="bg-fade">badge-green</span>, <span class="bg-fade">badge-yellow</span>
+          </p>
           <div class="component-examples">
             <span class="icon-badge">
               <span class="badge badge-green">9+</span>
@@ -359,6 +371,7 @@
           <p class="para-text">
             There are four different categories of buttons provided by StackUI.
             Each resembles the sementic meaning that it holds.
+            <span class="bg-fade">btn-primary</span>, <span class="bg-fade">btn-info</span>, <span class="bg-fade">btn-warning</span>, <span class="bg-fade">btn-error</span>. Use any of these along with the <span class="bg-fade">btn</span> class.
           </p>
 
           <div class="component-examples">
@@ -373,6 +386,7 @@
           </div>
 
           <h3 class="secondary-heading-blue">Outline Buttons</h3>
+          <p class="para-text">Use the class <span class="bg-fade">btn-outline</span> along with any of the two classes depending on the primary and secondary color of your app: <span class="bg-fade">outline-primary</span>, <span class="bg-fade">outline-secondary</span></p>
           <div class="component-examples">
             <button class="btn-outline outline-primary">Outline</button>
             <button class="btn-outline outline-secondary">Buttons</button>
@@ -387,7 +401,7 @@
           <p class="para-text">
             Any link from "a" tag can be styled into button. Using the same
             button class with the varient user likes to incorporate. Mandatory
-            class to include is <span class="primary-color">btn-link</span>
+            class to include is <span class="bg-fade">btn-link</span>
           </p>
           <div class="component-examples">
             <a href="#" class="btn-link btn btn-info">Link Btn</a>
@@ -405,7 +419,7 @@
           <p class="para-text">
             Any icon can be styled as a button using the classes provided by the
             StackUI for buttons component. Mandatory class to include is
-            <span class="primary-color">btn-icon</span>
+            <span class="bg-fade">btn-icon</span>
           </p>
           <div class="component-examples">
             <button class="btn-icon btn-info">
@@ -617,7 +631,7 @@
           <p class="para-text">
             The html structure remains the same for horizontal class as well,
             One just need to replace the main wrapper class from
-            "card-wrapper-v" to "card-wrapper-h". See below the code example for
+            <span class="bg-fade">card-wrapper-v</span> to <span class="bg-fade">card-wrapper-h</span>. See below the code example for
             better understanding.
           </p>
 
@@ -744,7 +758,7 @@
           <p class="para-text">
             Responsive images change their aspect ratio according to the
             container it is contained in. Stack UI provides the container
-            <span class="primary-color">img-wrapper</span> that allows you to
+            <span class="bg-fade">img-wrapper</span> that allows you to
             wrap your image and get it displayed in a responsive nature. You can
             change the height and width of the wrapper according to the usecase.
           </p>
@@ -761,7 +775,7 @@
           <h3 class="secondary-heading-blue">Round Images</h3>
           <p class="para-text">
             To get your images rounded, simply add the
-            <span class="primary-color">img-round</span> class to your wrapper
+            <span class="bg-fade">img-round</span> class to your wrapper
             class.
           </p>
           <div class="component-examples">
@@ -882,6 +896,8 @@
             A modal is a dialog box/popup window that is displayed on top of the
             current page disabling all the other content on the page for that
             instance.
+
+            The modal is wrapped within a <span class="bg-fade">modal-overlay</span> class and the modal content is wrapped within the <span class="bg-fade">modal-wrapper</span> class. Check below the implementation in css and javascript.
           </p>
 
           <div class="component-examples">
@@ -927,6 +943,7 @@
             A rating component can be used on any ecommerce platform, where we
             need to collect user experience with product or service in forms of
             rating.
+            Use the id <span class="bg-fade">rating-star</span> for each stars and the class names according to the value of the star such as <span class="bg-fade">rating-star-1</span>, <span class="bg-fade">rating-star-2</span>, <span class="bg-fade">rating-star-3</span>, <span class="bg-fade">rating-star-4</span>, <span class="bg-fade">rating-star-5</span>
           </p>
 
           <div class="component-examples">
@@ -975,6 +992,8 @@
           <p class="para-text">
             Sliders are majorly used to take inputs from user that ranges
             between two values. A minimum value and a maximum value.
+
+            Wrap your slider with the class <span class="bg-fade">slider-container</span> and the slider with the class <span class="bg-fade">slider</span>. Also see below the code snippet for more understanding of the usage,
           </p>
           <div class="component-examples">
             <div class="slider-container">
@@ -1003,6 +1022,7 @@
             Various text utility classes that can be used to design text based
             use cases. Below are all the examples for Headings, paragraphs,
             span, and more.
+            Headings classes span from <span class="bg-fade">h1</span>, <span class="bg-fade">h2</span>, <span class="bg-fade">h3</span>, <span class="bg-fade">h4</span>, <span class="bg-fade">h5</span>, <span class="bg-fade">h6</span>. These heading classes can be associated with the <span class="bg-fade">primary-color</span> and <span class="bg-fade">secondary-color</span> to color them according to the use case.
           </p>
 
           <h3 class="secondary-heading-blue">Headings</h3>
@@ -1030,6 +1050,11 @@
           </div>
 
           <h3 class="secondary-heading-blue">Paragraphs and Spans</h3>
+          <p class="para-text">For paragraphs stackUI provides three variant of sizes: <span class="bg-fade">p</span>, <span class="bg-fade">p-sm</span>, <span class="bg-fade">p-xs</span> in decreasing order respectively.</p>
+
+          <p class="para-text">For spans stackUI provides two variant of sizes: <span class="bg-fade">span</span>, <span class="bg-fade">span-sm</span> in decreasing order respectively.</p>
+
+          <p class="para-text">To color any text into grey you can use: <span class="bg-fade">text-grey</span>.</p>
           <div class="component-examples">
             <div class="text-sample-wrapper">
               <p class="p">Normal paragraph text.</p>
@@ -1046,6 +1071,7 @@
           </div>
 
           <h3 class="secondary-heading-blue">Alignment</h3>
+          <p class="para-text">Align any text using these classes: <span class="bg-fade">text-left</span>, <span class="bg-fade">text-center</span>, <span class="bg-fade">text-right</span></p>
           <div class="component-examples">
             <div class="alignment-example">
               <p class="p text-center">Centered text</p>
