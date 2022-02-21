@@ -4,12 +4,20 @@ StackUI is a pure CSS component Library built using HTML, CSS and vanilla JS. It
 
 ### Usage Guide
 - Import this link in your CSS file 
-`@import url('https://stackui.netlify.app/css/stackui.css')`
+
+```css
+@import url('https://stackui.netlify.app/css/stackui.css')
+```
+
 
 or
 
 - link it to your HTML file to get started with StackUI.
-`<link rel="stylesheet" href="https://stackui.netlify.app/css/stackui.css">`
+
+```html
+<link rel="stylesheet" href="https://stackui.netlify.app/css/stackui.css">
+```
+
 
 ### Documentation
 
