@@ -11,6 +11,10 @@
   --site-primary-lighter: #ebfbf7;
   --site-primary-bg: #f8fcfb;
 
+  --box-shadow-black05: rgba(0,0,0,0.05);
+  --box-shadow-black01: rgba(0,0,0,0.01);
+  --box-shadow-black1: rgba(0,0,0,0.1);
+
   /* mandate colors for components */
   --black: #212529;
   --white: #ffffff;
@@ -352,7 +356,7 @@ ul {
   border-radius: 5px;
   font-weight: 500;
   transition: ease-in-out 0.5s;
-  padding: 1rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   color: var(--site-secondary);
 }
 

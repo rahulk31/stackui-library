@@ -1,0 +1,41 @@
+.ul {
+    margin: 1rem 2rem;
+}
+
+.ul-circle {
+    list-style-type: circle;
+}
+
+.ul-decimal {
+    list-style-type: decimal;
+}
+
+.ul-disc {
+    list-style-type: disc;
+}
+
+.ul-square {
+    list-style-type: square;
+}
+
+.ul-upper-roman {
+    list-style-type: upper-roman;
+}
+
+.ul-lower-roman {
+    list-style-type: lower-roman;
+}
+
+.ul-alpha {
+    list-style-type: lower-alpha;
+}
+
+.ul-flex-spaced {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ul-flex-spaced li {
+    margin: 1rem;
+}

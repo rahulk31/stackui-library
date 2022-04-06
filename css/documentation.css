@@ -139,6 +139,11 @@ a {
   flex-wrap: wrap;
 }
 
+.w100 {
+  width: 100%;
+  display: block;
+}
+
 .code-snippet {
   margin: 4rem auto;
   max-height: 30rem;
