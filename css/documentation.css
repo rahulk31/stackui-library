@@ -139,7 +139,7 @@ a {
   flex-wrap: wrap;
 }
 
-#navigation .component-examples {
+.w100 {
   width: 100%;
   display: block;
 }
